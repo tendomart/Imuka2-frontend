@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Imuka2FrontEnd';
+  title = '23Imuka Access Platform';
 }

@@ -1,0 +1,36 @@
+
+.card {
+   /* box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);*/
+    border: 0px;
+    transition: 0.3s;
+  
+  
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card-deck {
+    margin: auto;
+    background: white;
+    
+  }
+  .card-header{
+      border: 0px;
+  }
+  .card-body{
+      border: 0px;
+  }
+  .card-footer {
+      background: white;
+      color: DodgerBlue ;
+      border: 0PX;
+  }
+  .main_container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  
+  

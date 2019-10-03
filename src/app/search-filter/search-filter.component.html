@@ -1,9 +1,57 @@
-<div>
+<!-- Search Filter Division -->
+<div class="filter">
 
-  <!-- <div style="text-align:center">
-    <h1>
+  <div style="text-align:center">
+    <!-- <h1>
       Welcome to {{ title }}!
-    </h1>
+    </h1> -->
     <img width="300" alt="Angular Logo" src="favicon.ico">
-  </div> -->
+  </div>
+<!-- <div class="search-form" style="text-align:center"> -->
+
+  <form class="form-inline s-filter" >
+   <div class="row">
+    <div class="industry col">
+      <select class="form-control" id="industry" aria-placeholder="Select Industry">
+          <option selected disabled>Select Industry</option>
+        <option>Agriculture</option>
+        <option>Education</option>
+        <option>Poultry</option>
+        <option>Medicine</option>
+        <option>Catering</option>
+      </select>
+    </div>
+
+    <div class="location col" >
+      <select class="form-control" id="location">
+          <option selected disabled>Location</option>
+        <option>Bundibugyo</option>
+        <option>Mubende</option>
+        <option>Hoima</option>
+        <option>Gulu</option>
+        <option>Fortportal</option>
+        <option>Kasese</option>
+      </select>
+    </div>
+
+    <div class="range col" >
+      <select class="form-control" id="range">
+          <option selected disabled>Deal Value / Range</option>
+        <option>100,000-500,000</option>
+        <option>600,000-1,000,000</option>
+        <option>1M - 5M</option>
+        <option>6M - 10M</option>
+        <option>11M - 50M</option>
+        <option>60M - 100M</option>
+        <option>Over 100M</option>
+      </select>
+    </div>
+
+    
+    <button type="submit" class="btn btn-primary mb-2 col">Find Deal</button>
+   </div>
+  </form>
+
+<!-- </div> -->
+
 </div>

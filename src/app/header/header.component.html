@@ -1,35 +1,48 @@
 
 <!--Nav Bar header with Imuka Logo and search Buttons-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-  <a class="navbar-brand" href="#"> 
-      <img src="favicon.ico" class="img-responsive" alt="Cinque Terre" width="60" height="20" alt="">
-    Imuka Access
-  </a>
-
-  <button class="navbar-toggler" type="button">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
-  <div class="collapse navbar-collapse">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link"  href="#"  data-toggle="tooltip" title="Look at Available Opportuities">Opportunities <span class="badge badge-pill badge-danger">4</span></a>
-        
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#"  data-toggle="tooltip" title="See Available Deals">Deals <span class="badge badge-pill badge-success">23</span></a>
-      </li>
-    </ul>
-  </div>
-  <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search Imuka" aria-label="Search">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#"> 
+          <img src="favicon.ico" class="logo img-responsive" alt="Cinque Terre" alt="Imuka Access">
+      </a>
     
-    <!-- <aio-search-box class="search-container"></aio-search-box> -->
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    <span ></span>
-    <button class="btn  btn-outline-success" type="button">Login</button>
-    <button class="btn  btn-outline-success" type="button">Signup</button>
-  </form>
+      <button class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+              <a class="nav-link "  href="#"  data-toggle="tooltip" title="Look at Available Opportuities">Funding Opportunities </a>
+          </li>
+    
+          <li class="nav-item">
+            <a class="nav-link" href="#"  data-toggle="tooltip" title="See Available Deals">Deals </a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" href="#"  data-toggle="tooltip" title="See Available Deals">About Us </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#"  data-toggle="tooltip" title="See Available Deals">Contact Us</a>
+              </li>
+
+        </ul>
+      </div>
+      <form class="form-inline">
+         
+        <input class="form-control pr-5" type="search" placeholder="Search Imuka ..." aria-label="Search">
+        
+        <!-- <aio-search-box class="search-container"></aio-search-box> -->
+        <div class="search-icon">
+          <i class="fa fa-search"></i>
+        </div>
+        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+        <!-- <span ></span> -->
+        <button class="btn btn-success btn-rounded" type="button">Login</button>
+        <button class="btn btn-danger btn-rounded" type="button">Join Us</button>
+      </form>
+  </div>
 </nav>
 

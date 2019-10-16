@@ -9,12 +9,12 @@ import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { SearchFilterComponent } from './search-filter/search-filter.component';
-import { AgentdashboardComponent } from './layout/dashboard/agentdashboard/agentdashboard.component';
-import { SidenavComponent } from './layout/dashboard/components/sidenav/sidenav.component';
-import { DashanalyticsComponent } from './layout/dashboard/pages/dashanalytics/dashanalytics.component';
-import { DashfooterComponent } from './layout/dashboard/components/dashfooter/dashfooter.component';
-import { DashheaderComponent } from './layout/dashboard/components/dashheader/dashheader.component';
-import { AdddealComponent } from './layout/dashboard/pages/adddeal/adddeal.component';
+//import { AgentdashboardComponent } from './layout/dashboard/agentdashboard/agentdashboard.component';
+//import { SidenavComponent } from './layout/dashboard/components/sidenav/sidenav.component';
+//import { DashanalyticsComponent } from './layout/dashboard/pages/dashanalytics/dashanalytics.component';
+//import { DashfooterComponent } from './layout/dashboard/components/dashfooter/dashfooter.component';
+//import { DashheaderComponent } from './layout/dashboard/components/dashheader/dashheader.component';
+//import { AdddealComponent } from './layout/dashboard/pages/adddeal/adddeal.component';
 import { BaselayoutComponent } from './layout/baselayout/baselayout.component';
 
 @NgModule({
@@ -24,12 +24,12 @@ import { BaselayoutComponent } from './layout/baselayout/baselayout.component';
     BodyComponent,
     FooterComponent,
     SearchFilterComponent,
-    AgentdashboardComponent,
-    SidenavComponent,
-    DashanalyticsComponent,
-    DashfooterComponent,
-    DashheaderComponent,
-    AdddealComponent,
+    //AgentdashboardComponent,
+    //SidenavComponent,
+    //DashanalyticsComponent,
+   // DashfooterComponent,
+   // DashheaderComponent,
+   // AdddealComponent,
     BaselayoutComponent
   ],
   imports: [

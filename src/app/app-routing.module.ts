@@ -8,25 +8,14 @@ import { AppComponent } from './app.component';
 import { BaselayoutComponent } from './layout/baselayout/baselayout.component';
 
 const routes: Routes = [
-  
-  {
-    path: '',
-    component:  BaselayoutComponent,
-    children: [
-
-      // Dashboads
-      {path: 'agentdashboard', component: AgentdashboardComponent},
-      {path: '', component:  DashanalyticsComponent, },
-      {path: 'dashboard/analytics', component: DashanalyticsComponent },
-      {path: 'dashboard/add-deal', component: AdddealComponent },
-     
-    ]},
-{path: '**', redirectTo: ''}
+  {path: '', component:  BaselayoutComponent},
+ //{path: '', component:  AgentdashboardComponent }
+{ path: 'agentdashboard', loadChildren: './layout/baselayout/baselayout.module#BaselayoutModule' }
   
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{ enableTracing: false })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

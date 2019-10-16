@@ -1,5 +1,6 @@
 <div class="page">
-  <app-header></app-header>
+ 
+  <app-dashheader></app-dashheader>
    <div class="page-content d-flex align-items-stretch">
           <!-- Side Navbar -->
           <nav class="side-navbar"> 
@@ -17,11 +18,12 @@
          <h2 class="no-margin-bottom">Dashboard</h2>
        </div>
      </header>
-    <app-agentdashboard>
+    
  
-        <router-outlet #o="outlet"></router-outlet>
-   </app-agentdashboard>
+        <router-outlet></router-outlet>
+   
  
    <app-dashfooter></app-dashfooter>
    </div>
  </div>
+ 

@@ -16,6 +16,7 @@ import { SearchFilterComponent } from './search-filter/search-filter.component';
 //import { DashheaderComponent } from './layout/dashboard/components/dashheader/dashheader.component';
 //import { AdddealComponent } from './layout/dashboard/pages/adddeal/adddeal.component';
 import { BaselayoutComponent } from './layout/baselayout/baselayout.component';
+//import { AlldealsComponent } from './layout/dashboard/pages/alldeals/alldeals.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { BaselayoutComponent } from './layout/baselayout/baselayout.component';
    // DashfooterComponent,
    // DashheaderComponent,
    // AdddealComponent,
-    BaselayoutComponent
+    BaselayoutComponent,
+   // AlldealsComponent
   ],
   imports: [
     BrowserModule,

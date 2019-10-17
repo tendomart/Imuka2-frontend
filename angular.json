@@ -36,8 +36,9 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
 
-              "src/assets/js/front.js",
-              "src/assets/js/toggle.js"
+              "src/assets/js/front.js"
+            
+             
             ]
           },
           "configurations": {

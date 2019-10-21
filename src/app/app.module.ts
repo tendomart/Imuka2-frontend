@@ -16,7 +16,9 @@ import { SearchFilterComponent } from './search-filter/search-filter.component';
 //import { DashheaderComponent } from './layout/dashboard/components/dashheader/dashheader.component';
 //import { AdddealComponent } from './layout/dashboard/pages/adddeal/adddeal.component';
 import { BaselayoutComponent } from './layout/baselayout/baselayout.component';
+
 import { NotificationPanelComponent } from './notification-panel/notification-panel.component';
+
 //import { AlldealsComponent } from './layout/dashboard/pages/alldeals/alldeals.component';
 
 @NgModule({
@@ -33,7 +35,9 @@ import { NotificationPanelComponent } from './notification-panel/notification-pa
    // DashheaderComponent,
    // AdddealComponent,
     BaselayoutComponent,
+
     NotificationPanelComponent,
+
    // AlldealsComponent
   ],
   imports: [

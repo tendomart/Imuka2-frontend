@@ -490,7 +490,7 @@ nav.side-navbar ul li a {
 }
 
 nav.side-navbar ul li a:hover {
-  background: #796AEE;
+  background: #0275d8 ;
   border-left: 4px solid #3b25e6;
   color: #fff;
 }
@@ -501,7 +501,7 @@ nav.side-navbar ul li li a {
 }
 
 nav.side-navbar ul li.active > a {
-  background: #796AEE;
+  background: #0275d8 ;
   color: #fff;
   border-left: 4px solid #3b25e6;
 }

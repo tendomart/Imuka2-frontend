@@ -12,6 +12,7 @@ import { DashheaderComponent } from '../dashboard/components/dashheader/dashhead
 import { DashanalyticsComponent } from '../dashboard/pages/dashanalytics/dashanalytics.component';
 import { AdddealComponent } from '../dashboard/pages/adddeal/adddeal.component';
 import { AlldealsComponent } from '../dashboard/pages/alldeals/alldeals.component';
+import { DealdetailsComponent } from '../dashboard/pages/dealdetails/dealdetails.component';
 
 import { BaselayoutRoutingModule } from './baselayout-routing.module';
 
@@ -23,7 +24,8 @@ import { BaselayoutRoutingModule } from './baselayout-routing.module';
     DashfooterComponent,
     DashanalyticsComponent,
     AdddealComponent,
-    AlldealsComponent
+    AlldealsComponent,
+    DealdetailsComponent ,
   ],
   imports: [
     CommonModule,

@@ -4,9 +4,9 @@ import { AgentdashboardComponent } from '../dashboard/agentdashboard/agentdashbo
 import { DashanalyticsComponent } from '../dashboard/pages/dashanalytics/dashanalytics.component';
 import { AdddealComponent } from '../dashboard/pages/adddeal/adddeal.component';
 import { AlldealsComponent } from '../dashboard/pages/alldeals/alldeals.component';
+import { DealdetailsComponent } from '../dashboard/pages/dealdetails/dealdetails.component';
 
 const routes: Routes = [
- 
   {
     path: '', component: AgentdashboardComponent, children: [
       {
@@ -22,7 +22,7 @@ const routes: Routes = [
         path: 'dashboard/edit-deal', component: AlldealsComponent
       },
       {
-        path: 'dashboard/deal-details', component: AlldealsComponent
+        path: 'dashboard/deal-details', component: DealdetailsComponent
       },
       {
         path: '', component: DashanalyticsComponent

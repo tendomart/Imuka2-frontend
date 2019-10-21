@@ -1,28 +1,23 @@
 <div class="page">
- 
   <app-dashheader></app-dashheader>
    <div class="page-content d-flex align-items-stretch">
           <!-- Side Navbar -->
-          <nav class="side-navbar"> 
-   <app-sidenav></app-sidenav>
-   </nav>
-   <div class="content-inner">
+        <nav class="side-navbar"> 
+        <app-sidenav></app-sidenav>
+        </nav>
+       <div class="content-inner">
                <!-- Page Header-->
-  <header class="page-header">
-       <div class="container-fluid">
-            
-        
-         <h2 class="no-margin-bottom"><a id="toggle-btn" href="#" class="fa fa-bars" style="padding-right: 40px; color: #000;"></a>Dashboard</h2>
-        
-       </div>
-    
-     </header>
-    
- 
-        <router-outlet></router-outlet>
-   
- 
-   <app-dashfooter></app-dashfooter>
+          <header class="page-header">
+            <div class="container-fluid">
+              <h2 class="no-margin-bottom">
+                 <button type="button" id="sidebarCollapse" class="btn btn-default">
+                    <i class="fa fa-bars" style="color: #000;"></i>  
+                 </button> Dashboard
+              </h2>
+            </div>
+          </header>
+            <router-outlet></router-outlet>
+        <app-dashfooter></app-dashfooter>
    </div>
  </div>
  

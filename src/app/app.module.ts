@@ -17,6 +17,9 @@ import { SearchFilterComponent } from './search-filter/search-filter.component';
 //import { AdddealComponent } from './layout/dashboard/pages/adddeal/adddeal.component';
 import { BaselayoutComponent } from './layout/baselayout/baselayout.component';
 import { NotificationPanelComponent } from './notification-panel/notification-panel.component';
+import { MainNavComponent } from './main-nav/main-nav.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 //import { AlldealsComponent } from './layout/dashboard/pages/alldeals/alldeals.component';
 
 @NgModule({
@@ -34,13 +37,20 @@ import { NotificationPanelComponent } from './notification-panel/notification-pa
    // AdddealComponent,
     BaselayoutComponent,
     NotificationPanelComponent,
+    MainNavComponent,
    // AlldealsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    MatSliderModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
